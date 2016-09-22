@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/janis-kra/pickpocket-webservice/issues"
   },
-  "homepage": "https://github.com/janis-kra/pickpocket-webservice#readme"
+  "homepage": "https://github.com/janis-kra/pickpocket-webservice#readme",
+  "devDependencies": {
+    "eslint-config-janiskra": "^1.4.0"
+  }
 }
