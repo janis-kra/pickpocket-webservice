@@ -1,6 +1,6 @@
 {
   "name": "pickpocket-webservice",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Webservice for the pickpocket module",
   "main": "index.js",
   "scripts": {
