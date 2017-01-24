@@ -33,7 +33,7 @@
   "dependencies": {
     "express": "^4.14.0",
     "express-answer": "^1.1.0",
-    "express-readbody": "^1.0.0",
+    "express-readbody": "^1.1.0",
     "pickpocket": "^1.1.0"
   },
   "optionalDependencies": {
