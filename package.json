@@ -4,7 +4,10 @@
   "description": "Webservice for the pickpocket module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "debug": "iron-node index.js",
+    "lint": "eslint index.js",
+    "start": "node index.js",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -24,12 +27,19 @@
   },
   "homepage": "https://github.com/janis-kra/pickpocket-webservice#readme",
   "devDependencies": {
-    "eslint-config-janiskra": "^1.4.0"
+    "eslint": "^3.14.0",
+    "eslint-config-janiskra": "^2.0.0"
   },
   "dependencies": {
     "express": "^4.14.0",
-    "express-answer": "^1.0.0",
+    "express-answer": "^1.1.0",
     "express-readbody": "^1.0.0",
-    "pickpocket": "^0.2.0"
+    "pickpocket": "^1.1.0"
+  },
+  "optionalDependencies": {
+    "iron-node": "^3.0.15"
+  },
+  "engines": {
+    "node": ">6.*"
   }
 }
